@@ -13,7 +13,7 @@ This is simple app include push notification and route map for the driver, who g
 
 Push Notification : npm install --save react-native-fcm .All of the other has been configuration . Replace google-services.json by your firebase app which should be the right name of package.
 Put your AUTH_KEY_FCM in the './src/common/Constant.js' to get your notification from server.
-You will see the serverUrl: 'http://45.119.81.84:7575/' on the Constant.js file. This port is still being alive to test this demo. Pick http://45.119.81.84:7575/delivery/about to test whether it is alive or not.
+You will see the serverUrl: 'http://45.119.81.84:7575/' on the Constant.js file. This port is still being alive to test this demo. You should ping the API http://45.119.81.84:7575/delivery/about to test whether it is alive or not.
 Otherwise , you will need pull Iparcel-App-Server to set up in local and use your machine port to test notification.
 
 React-Native-Maps : run npm install --save react-native-maps and npm install react-native-maps @mapbox/polyline --save to run polyline direction with google map api.
